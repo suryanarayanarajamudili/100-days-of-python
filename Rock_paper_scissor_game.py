@@ -81,7 +81,7 @@ if st.button("Play!"):
 
 st.subheader("Scoreboard")
 st.write("Your wins:", st.session_state.user_score)
-st.write("Computer wins:", st.session_state.computer_score)
+st.write("Rocky wins:", st.session_state.computer_score)
 
 if st.button("Reset scores"):
     st.session_state.user_score = 0

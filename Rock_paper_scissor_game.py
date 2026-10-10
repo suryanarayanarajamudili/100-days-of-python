@@ -51,10 +51,10 @@ user_choice = st.radio(
 if st.button("Play!"):
     computer_choice = random.randint(0, 2)
 
-    st.subheader("Your choice")
+    st.subheader(f"Your choice: {choices[user_choice]}")
     st.code(game_images[user_choice])
 
-    st.subheader("Computer's choice")
+    st.subheader(f"Computer's choice: {choices[computer_choice]}")
     st.code(game_images[computer_choice])
 
     if user_choice == computer_choice:

@@ -54,7 +54,7 @@ if st.button("Play!"):
     st.subheader(f"Your choice: {choices[user_choice]}")
     st.code(game_images[user_choice])
 
-    st.subheader(f"Rocky: {choices[computer_choice]}")
+    st.subheader(f"Rocky choice: {choices[computer_choice]}")
     st.code(game_images[computer_choice])
 
     if user_choice == computer_choice:
